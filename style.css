@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    transition: 0.2s ease;
 }
 body{
     padding: 0;
@@ -55,7 +56,9 @@ body{
         border: 2px solid black !important;
         border-radius: 5px;
     }   
-
+    .Hover:hover{
+        scale: 1.02;
+    }
     img{
         height: 196.618px;
     }
@@ -109,7 +112,9 @@ line-height: 125%; /* 25px */
     border: 2px solid black !important;
     border-radius: 5px;
 }
-
+.Hover:hover{
+    scale: 1.02;
+}
 img{
     height: 334.544px;
 }
